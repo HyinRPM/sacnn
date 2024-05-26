@@ -15,6 +15,8 @@ The README is structured as follows:
 
 ## 1. Dataset Sample
 
+![](assets/data_info.png)
+
 As the dataset has not been publicly released, we provide a small subsample of the monkey 1 site 1 (M1S1) data. The sample contains the 
 
 * Training images
@@ -25,6 +27,10 @@ As the dataset has not been publicly released, we provide a small subsample of t
 See the [INSERT] jupyter notebook for more details.
 
 ## 2. Modeling
+
+![](assets/main_models.png)
+![](assets/inc_models.png)
+
 
 Models can be found in the modeling folder. Self attention is there, etc. See the freezing in inc.
 
@@ -38,6 +44,9 @@ Incremental training scripts can be found in training folder. Note the loading b
 
 ## 5. Tuning Curves
 
+![](assets/tuning_curves.png)
+![](assets/avg_tc.png)
+
 Generation of tuning curves found in analysis. See individual neuron tuning curves, and population average tuning curves.
 
 ## 6. Calculating Neuronal Tuning Metrics: CORR. and PT
@@ -46,9 +55,13 @@ See analysis folder. CORR. via pearson correlation function. PT_J and PT_S based
 
 ## 7. FCL Decomposition
 
+![](assets/fcl_decomp.png)
+
 Extracting contributions found in analysis. Requires modifying model to save extra parameters.
 
 ## 8. Attention Highlighting
+
+![](assets/att_hlight.png)
 
 Extracting HH map, and then querying center. Requires modifying model to save extra parameters.
 
