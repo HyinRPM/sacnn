@@ -16,7 +16,7 @@ The README is structured as follows:
 ## 1. Dataset Sample
 
 <div align="center">
-  <img src="./assets/data_info.png" width="700"/>
+  <img src="./assets/data_info.png" width="500"/>
 </div>
 
 
@@ -32,8 +32,8 @@ See the [INSERT] jupyter notebook for more details.
 ## 2. Modeling
 <div align="center">
   <p float="center">
-    <img src="./assets/main_models.png" width="500" />
-    <img src="./assets/inc_models_hq.png" width="300" /> 
+    <img src="./assets/main_models.png" width="450" />
+    <img src="./assets/inc_models_hq.png" width="250" /> 
   </p>
 </div>
 
@@ -53,11 +53,11 @@ Incremental training scripts can be found in training folder. Note the loading b
 
 
 <div align="center">
-  <img src="./assets/tuning_curves.png" width="700"/>
+  <img src="./assets/tuning_curves.png" width="500"/>
 </div>
 
 <div align="center">
-  <img src="./assets/avg_tc.png" width="700"/>
+  <img src="./assets/avg_tc.png" width="500"/>
 </div>
 
 
@@ -70,7 +70,7 @@ See analysis folder. CORR. via pearson correlation function. PT_J and PT_S based
 ## 7. FCL Decomposition
 
 <div align="center">
-  <img src="./assets/fcl_decomp.png" width="700"/>
+  <img src="./assets/fcl_decomp.png" width="500"/>
 </div>
 
 Extracting contributions found in analysis. Requires modifying model to save extra parameters.
@@ -78,7 +78,7 @@ Extracting contributions found in analysis. Requires modifying model to save ext
 ## 8. Attention Highlighting
 
 <div align="center">
-  <img src="./assets/att_hlight.png" width="700"/>
+  <img src="./assets/att_hlight.png" width="500"/>
 </div>
 
 Extracting HH map, and then querying center. Requires modifying model to save extra parameters.
