@@ -33,7 +33,7 @@ See the [INSERT] jupyter notebook for more details.
 <div align="center">
   <p float="center">
     <img src="./assets/main_models.png" width="500" />
-    <img src="./assets/inc_models_hq.png" width="200" /> 
+    <img src="./assets/inc_models_hq.png" width="250" /> 
   </p>
 </div>
 
