@@ -9,13 +9,16 @@ The README is structured as follows:
 3. Traditional (Simultaneous) Training
 4. Incremental Training
 5. Tuning Curves
-6. Calculating Neuronal Tuning Metrics: CORR. and PT
+6. Calculating Neuronal Tuning Metrics: Correlation (CORR.) and Peak Tuning (PT)
 7. FCL Decomposition
 8. Attention Highlighting
 
 ## 1. Dataset Sample
 
-![](assets/data_info.png)
+<div align="center">
+  <img src="./assets/data_info.png" width="700"/>
+</div>
+
 
 As the dataset has not been publicly released, we provide a small subsample of the monkey 1 site 1 (M1S1) data. The sample contains the 
 
@@ -27,9 +30,13 @@ As the dataset has not been publicly released, we provide a small subsample of t
 See the [INSERT] jupyter notebook for more details.
 
 ## 2. Modeling
+<div align="center">
+  <p float="center">
+    <img src="./assets/main_models.png" width="600" />
+    <img src="./assets/inc_models.png" width="300" /> 
+  </p>
+</div>
 
-![](assets/main_models.png)
-![](assets/inc_models.png)
 
 
 Models can be found in the modeling folder. Self attention is there, etc. See the freezing in inc.
@@ -44,8 +51,15 @@ Incremental training scripts can be found in training folder. Note the loading b
 
 ## 5. Tuning Curves
 
-![](assets/tuning_curves.png)
-![](assets/avg_tc.png)
+
+<div align="center">
+  <img src="./assets/tuning_curves.png" width="700"/>
+</div>
+
+<div align="center">
+  <img src="./assets/avg_tc.png" width="700"/>
+</div>
+
 
 Generation of tuning curves found in analysis. See individual neuron tuning curves, and population average tuning curves.
 
@@ -55,13 +69,17 @@ See analysis folder. CORR. via pearson correlation function. PT_J and PT_S based
 
 ## 7. FCL Decomposition
 
-![](assets/fcl_decomp.png)
+<div align="center">
+  <img src="./assets/fcl_decomp.png" width="700"/>
+</div>
 
 Extracting contributions found in analysis. Requires modifying model to save extra parameters.
 
 ## 8. Attention Highlighting
 
-![](assets/att_hlight.png)
+<div align="center">
+  <img src="./assets/att_hlight.png" width="700"/>
+</div>
 
 Extracting HH map, and then querying center. Requires modifying model to save extra parameters.
 
