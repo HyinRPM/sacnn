@@ -32,8 +32,8 @@ See the [INSERT] jupyter notebook for more details.
 ## 2. Modeling
 <div align="center">
   <p float="center">
-    <img src="./assets/main_models.png" width="600" />
-    <img src="./assets/inc_models.png" width="300" /> 
+    <img src="./assets/main_models.png" width="400" />
+    <img src="./assets/inc_models.png" width="200" /> 
   </p>
 </div>
 
