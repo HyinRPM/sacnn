@@ -27,7 +27,7 @@ As the dataset has not been publicly released, we provide a small subsample of t
 * Validation images
 * Validation responses
 
-See the [INSERT] jupyter notebook for more details.
+See the analysis/data_sample.ipynb jupyter notebook for more details.
 
 ## 2. Modeling
 <div align="center">
@@ -39,7 +39,7 @@ See the [INSERT] jupyter notebook for more details.
 
 
 
-Models can be found in the modeling folder. Self attention is there, etc. See the freezing in inc.
+Models can be found in the modeling folder.
 
 ## 3. Traditional (Simultaneous) Training
 
@@ -47,7 +47,7 @@ Traditional training scripts can be found in training folder.
 
 ## 4. Incremental Training
 
-Incremental training scripts can be found in training folder. Note the loading based on model.
+Incremental training scripts can be found in training folder. Note the incremental loading of parameters off of already trained models.
 
 ## 5. Tuning Curves
 
