@@ -1,7 +1,6 @@
-# Incremental Learning and Self-Attention Mechanisms Improve Neural System Identification
+# Self-Attention-Based Contextual Modulation Improves Neural System Identification
 
-This repository serves as supporting material for the paper titled Incremental Learning and Self-Attention Mechanisms Improve Neural System Identification. The repository has been anonymized to abide by the the double-blind review process.
-
+This repository serves as supporting material for the paper titled Self-Attention-Based Contextual Modulation Improves Neural System Identification.
 The README is structured as follows:
 
 1. Dataset Sample
